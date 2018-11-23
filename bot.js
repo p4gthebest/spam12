@@ -11,7 +11,11 @@ channel.send(`**Road To 100k Credit** **Tfa7thebest** **I'm gonna kill you** **I
 })
 
 
-
+client.on('message', message => {
+    if(message.content === 'check'){
+        message.channel.send('#rep @P4G_#4266')
+    }
+});
 
 
 client.on('message', message => {
